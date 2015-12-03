@@ -1,25 +1,30 @@
 button {
 	border: none;
-	height: 100px;
+	
 }
 
 #rood {
 	background-color: red;
+	height: 100px;
 }
 
 #geel {
 	background-color: yellow;
+	height: 100px;
 }
 
 #blauw {
 	background-color: blue;
+	height: 100px;
 }
 
 #groen {
 	background-color: green;
+	height: 100px;
 }
 
 #aan {
 	background-color: black;
+	height: 100px;
 }
 

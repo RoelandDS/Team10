@@ -1,0 +1,55 @@
+<html>
+<head>
+  <title>hack the future</title>
+
+  <script src="required/angular.js"></script>
+  <script src="required/router.js"></script>
+  <script src="required/bootstrap.js"></script>
+
+  <script src="scripts/hackthefuture.js"></script>
+  <script src="scripts/lampService.js"></script>
+  <script src="scripts/lampController.js"></script>
+  <link href="required/bootstrap.css" rel="stylesheet">
+  <link href="style/style.css" rel="stylesheet">
+
+
+
+  <style> .glyphicon-thumbs-up { cursor:pointer } </style>
+</head>
+  <body ng-app="hackthefuture" ng-controller="hueController">
+
+ <div class="col-md-6 col-md-offset-3">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Registreer team</h3>
+      </div>
+      <form class="form-horizontal">
+  <fieldset>
+    <div class="form-group">
+      <label for="inputTeam" class="col-lg-2 control-label">Team name</label>
+      <div class="col-lg-10">
+        <input type="text" class="form-control" id="inputTeam" placeholder="Team name">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="member1" class="col-lg-2 control-label">Member 1</label>
+      <div class="col-lg-10">
+        <input type="password" class="form-control" id="member1" placeholder="Member 1">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="member2" class="col-lg-2 control-label">Member 2</label>
+      <div class="col-lg-10">
+        <input type="password" class="form-control" id="member2" placeholder="Member 2">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-lg-10 col-lg-offset-2">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+    
+  </fieldset>
+</form>
+    </div>
+ </div>
