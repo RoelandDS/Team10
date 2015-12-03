@@ -1,13 +1,16 @@
-angular.module("hackthefuture").controller("hueController",['$scope','lampService', function($scope,lampService){
+angular.module("hackthefuture").controller("hueController",['$scope','lampservice', function($scope,lampservice){
 
 	var self = this;
 
 	self.getLampInfo = function(){
-		lampService.getInfoLamp().succes(function(date){
+		lampservice.getInfoLamp().success(function(data){
 			$scope.lamp = data;
+			console.log(data);
 		});
 	}
 
-	self.getLampinfo();
+	self.getLampInfo();
+
+
 	
 }])

@@ -2,18 +2,19 @@
 <head>
   <title>hack the future</title>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.12.0/ui-bootstrap.js"></script>
+  <script src="required/angular.js"></script>
+  <script src="required/router.js"></script>
+  <script src="required/bootstrap.js"></script>
 
   <script src="scripts/hackthefuture.js"></script>
+  <script src="scripts/lampService.js"></script>
+  <script src="scripts/lampController.js"></script>
 
-  
-  <link href="https://bootswatch.com/darkly/bootstrap.min.css" rel="stylesheet">
+
 
   <style> .glyphicon-thumbs-up { cursor:pointer } </style>
 </head>
-  <body ng-app="hackthefuture">
+  <body ng-app="hackthefuture" ng-controller="hueController">
 
 
       <div div="row"> {{ lamp.name }} {{ lamp.status }} </div>
