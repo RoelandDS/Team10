@@ -34,11 +34,11 @@ angular.module("hackthefuture").controller("hueController",['$scope','lampservic
 	}
 
 	$scope.groen = function(){
-		self.color(254,254,20388);
+		self.color(254,254,24100);
 	}
 
 	$scope.geel = function(){
-		self.color(254,254,11286);
+		self.color(254,254,18932);
 	}
 
 	$scope.blauw = function(){
