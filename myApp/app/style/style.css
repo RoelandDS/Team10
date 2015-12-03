@@ -1,0 +1,25 @@
+button {
+	border: none;
+	height: 100px;
+}
+
+#rood {
+	background-color: red;
+}
+
+#geel {
+	background-color: yellow;
+}
+
+#blauw {
+	background-color: blue;
+}
+
+#groen {
+	background-color: green;
+}
+
+#aan {
+	background-color: black;
+}
+
