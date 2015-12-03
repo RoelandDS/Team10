@@ -14,7 +14,7 @@ app.config([
             controller: 'hueController'
         });
 
-        $urlRouterProvider.otherwise('registreerController');    
+        $urlRouterProvider.otherwise('lamp');    
     }]);
 
 

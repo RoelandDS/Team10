@@ -13,19 +13,19 @@ angular.module("hackthefuture").controller("hueController",['$scope','lampservic
 
 	$scope.uit = function(){
 		lampservice.uit().success(function(data){
-			console.log(data);
+
 		});
 	}
 
 	$scope.aan = function(){
 		lampservice.aan().success(function(data){
-			console.log(data);
+
 		});
 	}
 
 	self.color = function(sat, bri ,hue){
 		lampservice.color(sat,bri,hue).success(function(data){
-			console.log(data);
+
 		});
 	}
 
