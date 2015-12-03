@@ -11,6 +11,18 @@ angular.module("hackthefuture").controller("hueController",['$scope','lampservic
 
 	self.getLampInfo();
 
+	$scope.uit = function(){
+		lampservice.uit().success(function(data){
+			console.log(data);
+		});
+	}
+
+	$scope.aan = function(){
+		lampservice.aan().success(function(data){
+			console.log(data);
+		});
+	}
+
 
 	
 }])
