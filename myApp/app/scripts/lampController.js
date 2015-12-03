@@ -23,6 +23,28 @@ angular.module("hackthefuture").controller("hueController",['$scope','lampservic
 		});
 	}
 
+	self.color = function(sat, bri ,hue){
+		lampservice.color(sat,bri,hue).success(function(data){
+			console.log(data);
+		});
+	}
+
+	$scope.rood = function(){
+		self.color(254,254,0);
+	}
+
+	$scope.groen = function(){
+		self.color(254,254,20388);
+	}
+
+	$scope.geel = function(){
+		self.color(254,254,11286);
+	}
+
+	$scope.blauw = function(){
+		self.color(254,254,43325);
+	}
+
 
 	
 }])
