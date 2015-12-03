@@ -5,7 +5,6 @@ angular.module("hackthefuture").controller("hueController",['$scope','lampservic
 	self.getLampInfo = function(){
 		lampservice.getInfoLamp().success(function(data){
 			$scope.lamp = data;
-			console.log(data);
 		});
 	}
 
@@ -13,19 +12,19 @@ angular.module("hackthefuture").controller("hueController",['$scope','lampservic
 
 	$scope.uit = function(){
 		lampservice.uit().success(function(data){
-
+			self.getLampInfo();
 		});
 	}
 
 	$scope.aan = function(){
 		lampservice.aan().success(function(data){
-
+			self.getLampInfo();
 		});
 	}
 
 	self.color = function(sat, bri ,hue){
 		lampservice.color(sat,bri,hue).success(function(data){
-
+			self.getLampInfo();
 		});
 	}
 

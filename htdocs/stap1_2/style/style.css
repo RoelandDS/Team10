@@ -6,30 +6,48 @@ button {
 #rood {
 	background-color: red;
 	height: 100px;
+	margin-bottom: 20px;
 }
 
 #geel {
 	background-color: yellow;
 	height: 100px;
+	margin-bottom: 20px;
 }
 
 #blauw {
 	background-color: blue;
 	height: 100px;
+	margin-bottom: 20px;
 }
 
 #groen {
 	background-color: green;
 	height: 100px;
+	margin-bottom: 20px;
 }
 
 #aan {
 	background-color: black;
 	height: 100px;
+	margin-bottom: 20px;
 }
 
 #uit {
 	background-color: grey;
 	height: 100px;
+	margin-bottom: 20px;
 }
 
+#on {
+	background-color: white;
+	height: 100px;
+	margin-bottom: 20px;
+	color: black;
+}
+
+#off {
+	background-color: black;
+	height: 100px;
+	margin-bottom: 20px;
+}
